@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PwC_Ecommerce</name>
+    </assembly>
+    <members>
+        <member name="F:PwC_Ecommerce.Controllers.CosmosController._adapter">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:PwC_Ecommerce.DataAccess.Utility.CosmosConnection">
+            <inheritdoc />
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:PwC_Ecommerce.DataAccess.Utility.CosmosConnection.DatabaseId" -->
+        <!-- Badly formed XML comment ignored for member "P:PwC_Ecommerce.DataAccess.Utility.CosmosConnection.CollectionId" -->
+        <member name="M:PwC_Ecommerce.DataAccess.Utility.CosmosConnection.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{PwC_Ecommerce.DataAccess.Utility.ICosmosConnection})">
+            <summary>
+            Config-based constructor.
+            </summary>
+            <param name="config">Config file is used to access DatabaseId, AccountURL, and AuthKey</param>
+            /// <param name="logger">Logger for logging</param>
+        </member>
+        <member name="M:PwC_Ecommerce.DataAccess.Utility.CosmosConnection.InitializeAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:PwC_Ecommerce.DataAccess.Utility.CosmosConnection.VerifyDatabaseCreated">
+            <summary>
+            Verify if database is already created or it need to be created.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PwC_Ecommerce.DataAccess.Utility.CosmosConnection.VerifyCollectionCreated">
+            <summary>
+            Verify if collection is already created or we need to create the collection
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
