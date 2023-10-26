@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PwC_EcommerceApi.props" />
+</Project>
